@@ -1,10 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Joshua journey - From Finance to Tech Innovator</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #34495e;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #3498db;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    section {
+      background: white;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+    }
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 1rem;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #3498db;
+    }
+    .phase {
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+    .phase::before {
+      content: '';
+      position: absolute;
+      left: -1.8rem;
+      top: 0.5rem;
+      width: 12px;
+      height: 12px;
+      background: #3498db;
+      border-radius: 50%;
+    }
+    .phase h3 {
+      margin: 0;
+      color: #34495e;
+    }
+    .phase p {
+      margin: 0.5rem 0;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      nav a { display: block; margin: 0.5rem 0; }
+      .container { padding: 1rem; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This is my GitHub Pages site. More to come soon!</p>
+  <header>
+    <h1>[YourName]</h1>
+    <p>From Finance to Tech: Building the Future with Swarm Robotics & Wireless Innovation</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#program">My Program</a>
+    <a href="#timeline">Timeline</a>
+    <a href="https://github.com/careerchangeatthirty">GitHub</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I’m Joshua! After [5 years] in finance, I decided to chase my passion for technology and innovation. I’m transitioning into a career in robotics, AI, and wireless systems, with a focus on swarm intelligence and vibration-driven solutions. This site tracks my 104-week journey, starting March , 2025, as I build skills from scratch to create a wireless-powered humanoid scout bot. Excited? Me too!</p>
+    </section>
+
+    <section id="program">
+      <h2>My Program</h2>
+      <p>I’ve designed a 104-week self-directed program (March 17, 2025 - June 13, 2027) to master the skills I need. At 22 hours per week, it’s split into 8 phases, blending theory, hands-on projects, and review. My goal? A swarm-capable humanoid bot powered wirelessly, inspired by vibration, game theory, and cutting-edge tech. Here’s the breakdown:</p>
+      <ul>
+        <li><strong>Duration:</strong> 104 weeks (Mar 2025 - Jun 2027)</li>
+        <li><strong>Hours:</strong> 22/week (9h theory, 9h hands-on, 4h review)</li>
+        <li><strong>Phases:</strong> Software/AI, Robotics, Physics, EE/Wireless, Advanced AI, Quantum/Space, Geometry, Capstone</li>
+        <li><strong>Tools:</strong> C++, Python, ROS, Arduino, Qiskit</li>
+      </ul>
+    </section>
+
+    <section id="timeline">
+      <h2>Timeline</h2>
+      <div class="timeline">
+        <div class="phase">
+          <h3>Phase 1: Software and AI Basics</h3>
+          <p><strong>Mar 17 - Jun 08, 2025 (12 weeks)</strong><br>Learn C++, ML, and game theory. Build a fault-tolerant sensor class and neural net.</p>
+        </div>
+        <div class="phase">
+          <h3>Phase 2: Robotics and Vibration</h3>
+          <p><strong>Jun 09 - Oct 26, 2025 (20 weeks)</strong><br>Design a walking biped leg with vibration control at 5 Hz using ROS.</p>
+        </div>
+        <div class="phase">
+          <h3>Phase 3: Core Foundations</h3>
+          <p><strong>Oct 27, 2025 - Feb 22, 2026 (17 weeks)</strong><br>Master physics for resonance systems to enhance bot stability.</p>
+        </div>
+        <div class="phase">
+          <h3>Phase 4: EE and Wireless Energy</h3>
+          <p><strong>Feb 23 - Jun 21, 2026 (17 weeks)</strong><br>Build a Tesla coil to power an LED wirelessly at 1m.</p>
+        </div>
+        <div class="phase">
+          <h3>Phase 5: Advanced AI and Autonomy</h3>
+          <p><strong>Jun 22 - Oct 25, 2026 (18 weeks)</strong><br>Implement RL and swarm logic for an autonomous bot.</p>
+        </div>
+        <div class="phase">
+          <h3>Phase 6: QED and Space Systems</h3>
+          <p><strong>Oct 26, 2026 - Jan 17, 2027 (13 weeks)</strong><br>Add quantum-inspired sensors for precision.</p>
+        </div>
+        <div class="phase">
+          <h3>Phase 7: Sacred Geometry Mini-Phase</h3>
+          <p><strong>Jan 18 - Feb 14, 2027 (4 weeks)</strong><br>Create a geometric resonator to boost wireless power.</p>
+        </div>
+        <div class="phase">
+          <h3>Phase 8: Capstone</h3>
+          <p><strong>Feb 15 - Jun 13, 2027 (11 weeks)</strong><br>Build and demo a wireless-powered humanoid scout with swarm smarts.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Joshua. Follow my journey on <a href="https://github.com/yourusername">GitHub</a>!</p>
+  </footer>
 </body>
 </html>
